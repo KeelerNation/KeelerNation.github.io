@@ -1,70 +1,29 @@
 body
 {
-  background-color: #5b5b5b;
-  color: white;
-  margin-top: 0em;
-  margin-right: 0em;
-  margin-bottom: 0em;
-  margin-left: 0em;
+    background-image: url(images/back.jpg);
+    font-family: Futura;
+    background-attachment: fixed;
 }
 
-nav
+img 
 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
-a
-{
-  color: orange;
-}
-
-p
-{
-
-}
-
-h1
-{
-  background-color:
-  color:
-}
-
-h2
-{
-    background-color:
-    color:
+    float: right;
+    border: solid gray 3px;
 }
 
 h3
 {
-    background-color: #4bed8c;
-    color: black;
+    background-color: gray;
+    opacity: 0.75;
+    padding-left: 5px;
+    padding-right: 5px;
+    clear: right
 }
 
-h3.mar
+footer
 {
-    margin-left: 3em;
-    margin-right: 3em;
-    padding: 4px;
-
-}
-
-
-
-em
-{
-
-}
-
-strong
-{
-  color
-}
-
-
-.big
-{
-    font-weight: bold;
-    
+    text-align: center;
+    background-image: url(images/gray.jpg)
+    text-shadow: 3px 4px darkgray;
+    padding: 5px 0 5px 0;
 }
