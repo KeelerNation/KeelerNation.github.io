@@ -12,6 +12,10 @@ img
     border: solid gray 3px;
 }
 
+ul
+{
+    list-style-type: none;
+}
 h3
 {
     background-color: gray;
@@ -32,7 +36,7 @@ footer
     background-image: url(images/gray.jpg);
     text-shadow: 3px 4px darkgray;
     padding: 5px 0 5px 0;
-    margin-top: 10em;
+    margin-top: 60em;
 }
 
 a
@@ -51,7 +55,9 @@ ul a:hover
     width: 210px;
 }
 
-a:hover.small
+
+
+a:hover.smaller
 {
     color: white;
     font-weight: bold;
@@ -63,22 +69,34 @@ a:hover.small
 }
 
 
-div
+a:hover.small
 {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    padding: 3px;
+    width: 170px;
 }
 
-
-.col
+#left
 {
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+    width: 298px;
+    float: left;
+    border-right: solid black 3px;
+    padding-left: 3px
+}
 
-    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 40px; /* Firefox */
-    column-gap: 40px;
+#right
+{
+    width: 298px;
+    float: left;
+    border-right: solid black 3px;
+    padding-left: 3px
+}
 
-    -webkit-column-rule: 4px outset #000000; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px outset #000000; /* Firefox */
-    column-rule: 4px outset #000000;
+.invitem
+{
+    margin-left: 10px;
 }
