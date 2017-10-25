@@ -3,6 +3,7 @@ body
     background-image: url(images/back.jpg);
     font-family: Futura;
     background-attachment: fixed;
+    padding-left: 10px
 }
 
 img 
@@ -19,6 +20,8 @@ h3
     padding-right: 5px;
     clear: right;
     border: solid black 3px;
+    width: 160px;
+    text-align: center
     
 }
 
@@ -28,6 +31,7 @@ footer
     background-image: url(images/gray.jpg);
     text-shadow: 3px 4px darkgray;
     padding: 5px 0 5px 0;
+    margin-top: 10em;
 }
 
 a
@@ -55,4 +59,25 @@ a:hover.small
     background-color: blue;
     padding: 3px;
     width: 90px;
+}
+
+
+div
+{
+}
+
+
+.col
+{
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 4px outset #000000; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #000000; /* Firefox */
+    column-rule: 4px outset #000000;
 }
